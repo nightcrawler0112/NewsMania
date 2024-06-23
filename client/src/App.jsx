@@ -8,7 +8,7 @@ const  App =() => {
 
   return (
     <>
-      <h1>MUh me lelo na please</h1>
+      
     </>
   )
 }
