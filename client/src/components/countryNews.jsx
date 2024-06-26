@@ -18,7 +18,7 @@ function CountryNews() {
     setPage(page + 1);
   }
 
-  const pageSize = 6;
+  const pageSize = 12;
 
   useEffect(() => {
     setIsLoading(true);

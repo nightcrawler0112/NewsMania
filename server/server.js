@@ -53,7 +53,7 @@ app.get('/all-news',(req,res) =>{
     fetchNews(url,res);
 });
 
-app.options("/top-headlines",cors());
+
 app.get('/top-headlines',(req,res) =>{
     let pageSize = parseInt(req.query.pageSize) || 40;
     let page = parseInt(req.query.page) || 1;

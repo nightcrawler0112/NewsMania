@@ -18,7 +18,7 @@ function TopHeadlines() {
     setPage(page + 1);
   }
 
-  let pageSize = 6;
+  let pageSize = 12;
 
   useEffect(() => {
     setIsLoading(true);
